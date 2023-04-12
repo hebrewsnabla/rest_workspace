@@ -1,14 +1,14 @@
 Installation
 ------------------
 
-* Prerequisites
+* Prerequisites ::
 
    - libopenblas.so
    - libcint.so
-   - libhdf5.so
+   - libhdf5.so (version 1.8, 1.10, or 1.12)
    - libxc.so
 
-* Build REST::
+* Build REST ::
 
    1) cp Config.templet Config
    2) edit "Config" to make the prerequisite libraries aforementioned accessable 
